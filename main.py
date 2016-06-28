@@ -2,11 +2,12 @@ import telebot
 import urllib
 from telebot import types
 import requests
+import json
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-bot = telebot.TeleBot('YOUR TOKEN')
+bot = telebot.TeleBot('YOUR TOKEN') # makan token shoma
 
 @bot.message_handler(commands=['start', 'help'])
 def m(m):
@@ -69,3 +70,4 @@ bot.polling(True)
 #  | | (_| | |_| | | (_) | |      | |  __/ (_| | | | | | |
 #  |_|\__,_|\__, |_|\___/|_|      |_|\___|\__,_|_| |_| |_|
 #           |___/
+#Copy right  2016 Negative - Taylor Team
