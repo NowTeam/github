@@ -57,7 +57,7 @@ def qq(q):
         followers = json_data['followers']
         following = json_data['following']
         avatar_url = json_data['avatar_url']
-        tmp = 'http://ntanjerome.org/wp-content/themes/tanji/images/iconmonstr-github-9-icon.png'
+        tmp = 'http://ericsteinborn.com/github-for-cats/img/ironcat.png'
         gitss = types.InlineQueryResultArticle('1', 'Git username\xE2\x9C\x8F\xEF\xB8\x8F', types.InputTextMessageContent('Name : <b>{}</b>\nUrl : <b>{}</b>\nBlog : <b>{}</b>\nLocation : <b>{}</b>\nBio : <i>{}</i>\n\nRepos : <code>{}</code>\nfollowers : <code>{}</code>\nfollowing : <code>{}</code>'.format(name,url_html,blog,location,bio,public_repos,followers,following), parse_mode="HTML"), thumb_url=tmp)
         avatarr = types.InlineQueryResultPhoto('2', '{}'.format(avatar_url), '{}'.format(avatar_url), description='avatar', caption='Name : {}\nUrl : {}\nBlog : {}\nLocation : {}\nBio : {}\n\nRepos : {}'.format(name,url_html,blog,location,bio,public_repos))
         bot.answer_inline_query(q.id, [gitss, avatarr], cache_time=1)
