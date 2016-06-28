@@ -12,7 +12,7 @@ bot = telebot.TeleBot('YOUR TOKEN')
 def m(m):
     markup = types.InlineKeyboardMarkup()
     markup.add(types.InlineKeyboardButton('Inline Mode', switch_inline_query='taylor-team'))
-    bot.send_message(m.chat.id, 'Hi Welcome Github bot\ncommands : \n/git [username]\nUpgrade github bot #soon', reply_markup=markup)
+    bot.send_message(m.chat.id, 'Hi Welcome Github bot\ncommands : \n/git [username]\n\ncreated By Taylor Team \ndeveloper : @negative_officiall', reply_markup=markup)
     print 'bot send help command'
 
 @bot.message_handler(regexp='^(/git) (.*)')
@@ -63,10 +63,9 @@ def qq(q):
         bot.answer_inline_query(q.id, [gitss, avatarr], cache_time=1)
 
 bot.polling(True)
-# _____           _              _____                    
-#|_   _|_ _ _   _| | ___  _ __  |_   _|__  __ _ _ __ ___  
-#  | |/ _` | | | | |/ _ \| '__|   | |/ _ \/ _` | '_ ` _ \ 
+# _____           _              _____
+#|_   _|_ _ _   _| | ___  _ __  |_   _|__  __ _ _ __ ___
+#  | |/ _` | | | | |/ _ \| '__|   | |/ _ \/ _` | '_ ` _ \
 #  | | (_| | |_| | | (_) | |      | |  __/ (_| | | | | | |
 #  |_|\__,_|\__, |_|\___/|_|      |_|\___|\__,_|_| |_| |_|
 #           |___/
-
