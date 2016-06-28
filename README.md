@@ -14,8 +14,14 @@ cd github-bot
 sudo apt-get install python-setuptools
 easy_install pyTelegramBotAPI
 easy_install urllib
+sudo pip install pytelegrambotapi —upgrade
 # Add Token file Main.py line 9 " Your Token "
 python main.py
+```
+
+#fix Error
+```sh
+python setup.py install
 ```
 #copy right Taylor-Team
 ##license MIT
