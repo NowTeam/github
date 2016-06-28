@@ -8,6 +8,7 @@
 <b> اموزش نصب</b>
 ```sh
 sudo apt-get update
+sudo apt-get install python2.7
 git clone https://github.com/taylor-team/github-bot
 cd github-bot
 sudo apt-get install python-setuptools
