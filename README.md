@@ -14,6 +14,7 @@ cd github-bot
 sudo apt-get install python-setuptools
 sudo pip install pyTelegramBotAPI
 sudo pip install pytelegrambotapi —upgrade
+sudo pip install -r requirements.txt
 # Add Token file Main.py line 9 " Your Token "
 python main.py
 ```
