@@ -27,6 +27,7 @@ cd github-bot
 sudo apt-get install python-setuptools
 easy_install pyTelegramBotAPI
 easy_install json
+sudo pip install -r requirements.txt
 # Add Token file Main.py line 9 " Your Token "
 python main.py
 ```
