@@ -36,3 +36,6 @@ python main.py
 لطفا در اخر توکن خود را در main.py لاین 9 قرار دهید
 
 #TeleNowTeam
+
+
+# [Support And Help](https://telegram.me/Im_Pv)
