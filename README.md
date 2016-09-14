@@ -9,7 +9,7 @@
 ```sh
 sudo apt-get update
 sudo apt-get install python2.7
-git clone https://github.com/taylor-team/github-bot
+git clone https://github.com/NowTeam/github
 cd github-bot
 sudo apt-get install python-setuptools
 sudo pip install pyTelegramBotAPI
@@ -22,7 +22,7 @@ or
 ```sh
 sudo apt-get update
 sudo apt-get install python2.7
-git clone https://github.com/taylor-team/github-bot
+git clone https://github.com/NowTeam/github
 cd github-bot
 sudo apt-get install python-setuptools
 easy_install pyTelegramBotAPI
