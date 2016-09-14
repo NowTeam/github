@@ -31,5 +31,6 @@ sudo pip install -r requirements.txt
 # Add Token file Main.py line 9 " Your Token "
 python main.py
 ```
-#copy right Taylor-Team
+#copy right NowTeam
 ##license MIT
+لطفا در اخر توکن خود را در main.py لاین 9 قرار دهید
