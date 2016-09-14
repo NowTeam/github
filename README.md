@@ -10,7 +10,7 @@
 sudo apt-get update
 sudo apt-get install python2.7
 git clone https://github.com/NowTeam/github
-cd github-bot
+cd github
 sudo apt-get install python-setuptools
 sudo pip install pyTelegramBotAPI
 sudo pip install pytelegrambotapi —upgrade
@@ -23,7 +23,7 @@ or
 sudo apt-get update
 sudo apt-get install python2.7
 git clone https://github.com/NowTeam/github
-cd github-bot
+cd github
 sudo apt-get install python-setuptools
 easy_install pyTelegramBotAPI
 easy_install json
@@ -34,3 +34,5 @@ python main.py
 #copy right NowTeam
 ##license MIT
 لطفا در اخر توکن خود را در main.py لاین 9 قرار دهید
+
+#TeleNowTeam
